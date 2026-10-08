@@ -1,0 +1,7 @@
+mode: production
+logging: true
+alerts:
+  email: true
+  sms: true
+  websocket: true
+camera_source: webcam  # Overrides camera_config.yaml if needed

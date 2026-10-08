@@ -1,0 +1,15 @@
+train_dir: "dataset/crime/preprocessed_frame"   # should contain subfolders per class (ImageFolder format)
+val_dir: "dataset/crime/validation_frame"      # optional validation folder in ImageFolder format
+batch_size: 16
+learning_rate: 0.001
+epochs: 10
+img_size: 224
+num_classes: 3
+class_names: ["assault", "robbery", "vandalism"]
+label_map:
+  "0": "assault"
+  "1": "robbery"
+  "2": "vandalism"
+checkpoint_path: "model/crime/checkpoints/crime_model.pt"
+log_dir: "model/crime/logs"
+pretrained: true

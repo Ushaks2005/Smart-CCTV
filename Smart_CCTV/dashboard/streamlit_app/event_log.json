@@ -1,0 +1,6 @@
+[
+    {
+        "timestamp": "2025-11-20 20:35:41",
+        "message": "Flask API Server failed: signal only works in main thread of the main interpreter"
+    }
+]

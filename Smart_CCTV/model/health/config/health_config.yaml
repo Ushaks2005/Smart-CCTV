@@ -1,0 +1,14 @@
+train_dir: "dataset/health/preprocessed_frame"
+val_dir: "dataset/health/validation_frame"
+batch_size: 16
+learning_rate: 0.001
+epochs: 10
+img_size: 224
+num_classes: 2
+class_names: ["abnormal", "normal"]
+label_map:
+  "0": "abnormal"
+  "1": "normal"
+checkpoint_path: "health/checkpoints/health_model.pt"
+log_path: "health/logs/train_log.txt"
+pretrained: true

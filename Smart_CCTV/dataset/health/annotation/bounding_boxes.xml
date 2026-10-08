@@ -1,0 +1,46 @@
+<annotations>
+  <video name="fainting.mp4">
+    <frame number="5">
+      <object>
+        <label>person</label>
+        <bbox>
+          <xmin>60</xmin>
+          <ymin>100</ymin>
+          <xmax>120</xmax>
+          <ymax>180</ymax>
+        </bbox>
+      </object>
+    </frame>
+    <frame number="30">
+      <object>
+        <label>fainting</label>
+        <bbox>
+          <xmin>65</xmin>
+          <ymin>110</ymin>
+          <xmax>125</xmax>
+          <ymax>190</ymax>
+        </bbox>
+      </object>
+    </frame>
+    <frame number="48">
+      <object>
+        <label>person</label>
+        <bbox>
+          <xmin>70</xmin>
+          <ymin>120</ymin>
+          <xmax>130</xmax>
+          <ymax>200</ymax>
+        </bbox>
+      </object>
+      <object>
+        <label>floor_contact</label>
+        <bbox>
+          <xmin>90</xmin>
+          <ymin>180</ymin>
+          <xmax>160</xmax>
+          <ymax>210</ymax>
+        </bbox>
+      </object>
+    </frame>
+  </video>
+</annotations>

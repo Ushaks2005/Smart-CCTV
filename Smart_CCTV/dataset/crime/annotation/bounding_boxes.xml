@@ -1,0 +1,72 @@
+<annotations>
+  <video name="robbery_01.mp4">
+    <frame number="15">
+      <object>
+        <label>person</label>
+        <bbox>
+          <xmin>120</xmin>
+          <ymin>80</ymin>
+          <xmax>220</xmax>
+          <ymax>180</ymax>
+        </bbox>
+      </object>
+      <object>
+        <label>weapon</label>
+        <bbox>
+          <xmin>250</xmin>
+          <ymin>100</ymin>
+          <xmax>300</xmax>
+          <ymax>160</ymax>
+        </bbox>
+      </object>
+    </frame>
+  </video>
+
+  <video name="assault_01.mp4">
+    <frame number="42">
+      <object>
+        <label>person</label>
+        <bbox>
+          <xmin>90</xmin>
+          <ymin>60</ymin>
+          <xmax>190</xmax>
+          <ymax>160</ymax>
+        </bbox>
+      </object>
+    </frame>
+  </video>
+
+  <video name="vandalism_01.mp4">
+    <frame number="20">
+      <object>
+        <label>person</label>
+        <bbox>
+          <xmin>110</xmin>
+          <ymin>90</ymin>
+          <xmax>180</xmax>
+          <ymax>170</ymax>
+        </bbox>
+      </object>
+      <object>
+        <label>object</label>
+        <bbox>
+          <xmin>220</xmin>
+          <ymin>130</ymin>
+          <xmax>280</xmax>
+          <ymax>190</ymax>
+        </bbox>
+      </object>
+    </frame>
+    <frame number="45">
+      <object>
+        <label>spray_can</label>
+        <bbox>
+          <xmin>150</xmin>
+          <ymin>100</ymin>
+          <xmax>170</xmax>
+          <ymax>140</ymax>
+        </bbox>
+      </object>
+    </frame>
+  </video>
+</annotations>

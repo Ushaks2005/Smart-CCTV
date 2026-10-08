@@ -1,0 +1,13 @@
+default_source: webcam  # Options: webcam, rtsp, onvif
+
+webcam:
+  index: 0  # Usually 0 for default webcam
+
+rtsp:
+  url: "rtsp://YOUR_CAMERA_USERNAME:YOUR_CAMERA_PASSWORD@192.168.1.100:554/stream"
+
+onvif:
+  ip: "192.168.1.101"
+  port: 80
+  username: "YOUR_CAMERA_USERNAME"
+  password: "YOUR_CAMERA_PASSWORD"

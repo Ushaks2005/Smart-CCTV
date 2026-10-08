@@ -1,0 +1,11 @@
+train_dir: "dataset/fire/preprocessed_frame"
+val_dir: "dataset/fire/validation_frame"
+batch_size: 16
+learning_rate: 0.001
+epochs: 10
+img_size: 224
+num_classes: 2
+class_names: ["fire", "normal"]
+label_map:
+  "0": "fire"
+  "1": "normal"
